@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 40px 30px;
+  padding: 20px 30px; /* Уменьшено с 40px */
   background-color: #fff;
   border-bottom: 1px solid #000;
 }
@@ -91,7 +91,7 @@
 .cover__title {
   display: flex;
   flex-direction: column;
-  font-size: 130px;
+  font-size: 180px; /* Увеличено с 130px */
   font-weight: 700;
   line-height: 1;
   text-transform: uppercase;
@@ -142,7 +142,7 @@
 }
 
 .section {
-  padding: 80px 30px;
+  padding: 100px 30px; /* Увеличено с 80px */
 }
 
 .section-title {
@@ -209,7 +209,7 @@
   grid-template-columns: 240px 1fr;
   align-items: start;
   gap: 50px;
-  padding: 80px 30px;
+  padding: 100px 30px 80px; /* Добавлен верхний отступ 100px */
   background-color: #fff;
 }
 
@@ -217,14 +217,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 240px;
-  height: 240px;
+  width: 280px; /* Увеличено с 240px */
+  height: 280px; /* Увеличено с 240px */
   background-color: #000;
   border-radius: 50%;
 }
 
 .about__logo-image {
-  width: 144px;
+  width: 170px; /* Увеличено с 144px */
 }
 
 .about__title {
